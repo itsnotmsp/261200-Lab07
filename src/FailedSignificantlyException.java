@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class FailedSignificantlyException {
+public class FailedSignificantlyException extends RuntimeException {
+    public FailedSignificantlyException(String message) {
+        super(message);
+    }
 }
